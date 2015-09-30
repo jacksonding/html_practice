@@ -1,0 +1,40 @@
+body {
+  font-size: 6pt;
+  font-family: arial;
+}
+
+td {
+  vertical-align: top;
+}
+
+.canvas_section{
+  border: 1px black solid;
+}
+
+h2 {
+  padding-left: 10px;
+}
+
+h3 {
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  margin: 0px
+}
+
+p{
+  margin: 0px
+}
+
+ul {
+  list-style:none;
+  padding-left:10px;
+  margin: 0px;
+}
+
+ol {
+  padding-left: 20px;
+  margin: 0px;
+}

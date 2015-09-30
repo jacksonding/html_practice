@@ -1,9 +1,28 @@
 /* This is here to give everything a red border, just to make it easier to see while developing. */
-* {
+/*
+ * {
   box-sizing: border-box;
 
   border: thin red solid;
 }
+*/
+
 /* You can turn it off if you want. (delete or comment it out) */
 
 /* Write your rules below */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.boxlink{
+  text-align: center;
+  border: 0.5px white solid;
+  border-radius:10px;
+  background-color: #82e0e0;
+  padding: 5px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
